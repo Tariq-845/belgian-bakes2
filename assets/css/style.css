@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Lora:wght@400;500;700&display=swap');
+
+/* ---------------------------- General Rules */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ---------------------------- Navbar */
+
+.navbar {
+  background-color: #fccfbf;
+  color: #818181;
+}
+
+.navbar-brand {
+  color: #818181;
+  font-family: 'Dancing Script', 'Lora', sans-serif;
+  font-weight: 700;
+  font-size: 200%;
+}
+
+/* ---------------------------- Offcanvas styling */
+
+.offcanvas
+ {
+  color: #818181;
+  background-color: #fccfbf;
+  font-family: 'Lora', sans-serif;
+  font-size: 110%;
+}
+
+.pe-3 {
+  padding-right: 0 !important;
+}
+
+.offcanvas-body {
+  padding: 0;
+}
+
+.nav-link {
+  color: #818181;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #d3aea0;
+}
+
+.nav-item a {
+  padding-left: 15px;
+}
+
+/* ---------------------------- Hero image */
+#hero-image {
+  background: url(../images/belgian-bakes-hero-image.png) no-repeat right top/cover;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+/* ---------------------------- Cards */
+#card1-img {
+  background: url(../images/belgian-bakes-donuts.jpg) no-repeat center center/cover;
+  width: 100%;
+  height: 200px;
+}
+
+#card2-img {
+  background: url(../images/belgian-bakes-pretzels.jpg) no-repeat center top/cover;
+  width: 100%;
+  height: 200px;
+}
+
+#card3-img {
+  background: url(../images/belgian-bakes-snacks.jpg) no-repeat center center/cover;
+  width: 100%;
+  height: 200px;
+}
